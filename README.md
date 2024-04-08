@@ -5,4 +5,5 @@ The sql queries are an integration with data visualisation I created using Table
 
 # Highlighted Projects
 
-- Employees Database  - In this project, a private dataset of employees of a fictional company, I used to analyse the Absenteeism of employees at Work and the prediction of Absenteeism at work in the future. 
+- Analyse Employees in a Company throughout the years - in this project, a private database is used to answer 4 business questions combining SQL and Tableau visualisations 
+- Solving a Business Task  - In this project, a private dataset of employees of a fictional company, I used to analyse the Absenteeism of employees at Work and the prediction of Absenteeism at work in the future. 
