@@ -11,4 +11,4 @@ The sql queries are an integration with data visualisation I created using Table
    - Compare the average salary of female versus male employees in the entire company until year 2002, per each department
    - The average male and female salary per department within a certain salary range
 
-![EER_diagram](ERR_diagram.png)
+![EER_diagram](EER_diagram.png)
