@@ -14,7 +14,7 @@ The sql queries are an integration with data visualisation I created using Table
 ![EER_diagram](EER_diagram.png)
 
 - Analyse the Absenteeism at a fictional company during work time. The data used is Secondary data provided as .csv files
-- Problem:
+  Problem:
     -  The business environment nowadays is competetive, which leads to increased pressure in the workplace
     -  Unachievable business goals lead to higher stress levels
     -  Risk of unemployment can also be detrimental to a person's health
