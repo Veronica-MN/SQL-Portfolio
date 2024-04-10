@@ -14,10 +14,10 @@ The sql queries are an integration with data visualisation I created using Table
 ![EER_diagram](EER_diagram.png)
 
 - Analyse the Absenteeism at a fictional company during work time. The data used is Secondary data provided as .csv files
-      - Problem:
-       -  The business environment nowadays is competetive, which leads to increased pressure in the workplace
-       -  Unachievable business goals lead to higher stress levels
-       -  Risk of unemployment can also be detrimental to a person's health
+   - Problem:
+      -  The business environment nowadays is competetive, which leads to increased pressure in the workplace
+      -  Unachievable business goals lead to higher stress levels
+      -  Risk of unemployment can also be detrimental to a person's health
 The above can result in minor or even major illnesses which may or may not develop into a long term condition for instance depression or anxiety.
 In this project, I look more into predicting absenteeism from work meaning clarifying whether or not an employee can be expected to miss work for a specific number of hours in any given workday resulting in temporary incapacity to do regular working activities.
 How is this beneficial to know: Knowing this information in advance can help a company reorganise the work processes in a manner that allows the company to avoid a lack of productivity and increase the quality of work.
