@@ -32,7 +32,8 @@ Overall: As a Data Analyst I would like to know for how many working hours can a
    - Does the employee have higher education or not
    - The age of the employee
 
-## Absenteeism Prediction
+## Absenteeism Prediction of Employees in a Company
+
 As a BI/Data Analyst I want to be able to be able to:
    - gather relevant employee data
    - run a model
@@ -43,7 +44,7 @@ The model in this case is the [abseenteeism module](absenteeism_module.py), addi
 
 The necessary programming steps to create and run the module are not necessary for me to understand a BI/Data Analyst. All I have to do is insert the name of the file that I have processed and cleaned and retrieved the new observation from and run the cell in my jupyter notebook. This will give me the probablity that a certain individual will be absetn from work for more than 3 hours as seen [here](Asenteeism_Prediction_Project.ipynb). 
 
-## Integration of Python & SQL
+#### Integration of Python & SQL
 In order for me to analyse and visualise the data in Tableau, I make use of the integration of Python, SQL and Tableau. First is to create a connection between Python & SQL in order to transfer the data from [Jupiter Notebook](Absenteeism_Prediction_Project.ipynb) to [MySQL workbench](predicted_outputs_table.sql)
 
 Steps:
@@ -56,3 +57,11 @@ Steps:
    - Close connection
 
 The data is stored as a .csv file which I can then use in Tableau to analyse the data. 
+
+#### Integration of SQL and Tableau
+Here we use the predicted_outputs_table which is based on 40 new observations obtained from the prediction model, to analyse the data 
+
+   - Age vs Average Probability
+   - Reasons vs Probability
+   - Transportation Expenses vs Probability
+[Visualisations](https://public.tableau.com/app/profile/veronica.mucha/vizzes)
