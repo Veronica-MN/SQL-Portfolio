@@ -29,3 +29,12 @@ Overall: As a Data Analyst I would like to know for how many working hours can a
    - How many pets does the employee have
    - Does the employee have higher education or not
    - The age of the employee
+
+## Integration of Python & SQL
+As a BI/Data Analyst I want to be able to be able to:
+   - gather relevant employee data
+   - run a model
+   - get results that will clearly show whether or not each employee is expected to be absent for more than 3 hours during a work day
+
+In this project, we assume that the data science or Machine Learning Engineers who will develop the necessary Python model containing the code that will run the machine learning code, which is not part of the objective of a BI/Data analyst.
+The model in this case is the [abseenteeism module](absenteeism_module.py), additionally, there is the scaler and model files that contain the information needed for the module to use the machine learning, then our cleaned dataset, [Absenteeism_new_data.csv file](Absenteeism_new_data.csv)
