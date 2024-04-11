@@ -30,7 +30,7 @@ Overall: As a Data Analyst I would like to know for how many working hours can a
    - Does the employee have higher education or not
    - The age of the employee
 
-## Integration of Python & SQL
+## Absenteeism Prediction
 As a BI/Data Analyst I want to be able to be able to:
    - gather relevant employee data
    - run a model
@@ -38,3 +38,19 @@ As a BI/Data Analyst I want to be able to be able to:
 
 In this project, we assume that the data science or Machine Learning Engineers who will develop the necessary Python model containing the code that will run the machine learning code, which is not part of the objective of a BI/Data analyst.
 The model in this case is the [abseenteeism module](absenteeism_module.py), additionally, there is the scaler and model files that contain the information needed for the module to use the machine learning, then our cleaned dataset, [Absenteeism_new_data.csv file](Absenteeism_new_data.csv)
+
+The necessary programming steps to create and run the module are not necessary for me to understand a BI/Data Analyst. All I have to do is insert the name of the file that I have processed and cleaned and retrieved the new observation from and run the cell in my jupyter notebook. This will give me the probablity that a certain individual will be absetn from work for more than 3 hours as seen [here](Asenteeism_Prediction_Project.ipynb). 
+
+## Integration of Python & SQL
+In order for me to analyse and visualise the data in Tableau, I make use of the integration of Python, SQL and Tableau. First is to create a connection between Python & SQL in order to transfer the data from [Jupiter Notebook](Absenteeism_Prediction_Project.ipynb) to [MySQL workbench](predicted_outputs_table.sql)
+
+Steps:
+   - Create a database e.g predicted_outputs database
+   - Connect SQL & Python (jupiter) using pymsql and import pymsql to establish the connection between the two
+   - Open the connection to mysql in Jupiter notebook
+   - Create a table whose structure corresponds to the dataframe I want to import
+   - Reconnect to the database
+   - Transfer data from Python to MySQl ( create a lopp that will iterate over both rows and columns and use execute method)
+   - Close connection
+
+The data is stored as a .csv file which I can then use in Tableau to analyse the data. 
