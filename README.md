@@ -64,4 +64,5 @@ Here we use the predicted_outputs_table which is based on 40 new observations ob
    - Age vs Average Probability
    - Reasons vs Probability
    - Transportation Expenses vs Probability
+     
 [Visualisations](https://public.tableau.com/app/profile/veronica.mucha/vizzes)
