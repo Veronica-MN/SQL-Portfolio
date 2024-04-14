@@ -77,15 +77,9 @@ Reason 4 is opposite to reason 1. The employees who selected reason for absence 
 
 ## Student Enrollments and Completions
 
-In this mini-project, I analyse, as the BI/Data Analyst in the company,  the career track enrollments and achievements of students at a fictional online school focusing on providing Data related courses/career tracks such as Data Science, Data Analytics, Business Analyst as well as AI training, technical expertise, resume building support just to name a few. 
+In this mini-project, I analyse, as the BI/Data Analyst in the company,  the career track/course enrollments and achievements of students at a fictional online school focusing on providing Data related courses/career tracks such as Data Science, Data Analytics, Business Analyst as well as AI training, technical expertise, resume building support just to name a few. The analysis is of data between January 2022 - December 2022.
 
-I'll be working with a relatively small [SQL dataset](sql_and_tableau.sql), comprising only two tables and around a thousand rows, to analyse the the career track enrollments and achievements of Students and answer the following questions
-
-   - What is the number of enrolled students monthly? Which is the month with the most enrollments? Speculate about the reason for the increased numbers
-   - Which career track do students enroll most in?
-   - What is the career track completion rate? Can you say if it’s increasing, decreasing, or staying constant with time?
-   - How long does it typically take students to complete a career track? What type of subscription is most suitable for students who aim to complete a career track: monthly, quarterly, or annual?
-   - What advice and suggestions for improvement would you give the 365 team to boost engagement, increase the track completion rate, and motivate students to learn more consistently?
+I'll be working with a relatively small [SQL dataset](sql_and_tableau.sql), comprising only two tables and around a thousand rows, to analyse the the career course enrollments and achievements of Students. 
 
 I will visualise the results using [Tableau](https://public.tableau.com/app/profile/veronica.mucha/vizzes)
 
@@ -100,3 +94,11 @@ Join both tables and extract columns such as the `student_id`, `course/track_nam
 Here I create 2 charts: 
    - One is a combo chart that represents the number of course enrollments in a given month as well as the fraction of course completions for that month as a percentage of the number of enrollments.
    - The second chart is a bar chart representing the `completion bucket` which is the 'bucket' a students falls into based on the number od days it took them to complete a course, if they have done so
+
+##### Step 3 Intepreting the Results
+
+   - What is the number of enrolled students monthly? Which is the month with the most enrollments? Speculate about the reason for the increased numbers
+   - Which career track do students enroll most in?
+   - What is the career track completion rate? Can you say if it’s increasing, decreasing, or staying constant with time?
+   - How long does it typically take students to complete a career track? What type of subscription is most suitable for students who aim to complete a career track: monthly, quarterly, or annual?
+   - What advice and suggestions for improvement would you give the 365 team to boost engagement, increase the track completion rate, and motivate students to learn more consistently?
