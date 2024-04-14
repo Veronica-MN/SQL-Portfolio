@@ -86,16 +86,16 @@ I will visualise the results using [Tableau](https://public.tableau.com/app/prof
 The tracks represent an ordinal sequence of courses that eventually lead to obtaining the skills for one of three job titles: data scientist, data analyst, or business analyst.
 To acquire a corresponding career certificate, a student must pass nine course exams (seven compulsory and two elective courses) and sit for a career track exam encompassing topics from all seven required courses.
 
-##### Step 1 Extract the Data with SQL - [Query](career_track_analysis_queries.sql)
+#### Step 1 Extract the Data with SQL - [Query](career_track_analysis_queries.sql)
 
 Join both tables and extract columns such as the `student_id`, `course/track_name`, `date_enrolled`, `date_completed` and newly created columns such as the `track_completed` and `days_for_completion` into a single query which will help us solve our business questions. 
 
-##### Step 2 Tableau Visualisations - [Charts](https://public.tableau.com/app/profile/veronica.mucha/vizzes)
+#### Step 2 Tableau Visualisations - [Charts](https://public.tableau.com/app/profile/veronica.mucha/vizzes)
 Here I create 2 charts: 
    - One is a combo chart that represents the number of course enrollments in a given month as well as the fraction of course completions for that month as a percentage of the number of enrollments.
    - The second chart is a bar chart representing the `completion bucket` which is the 'bucket' a students falls into based on the number od days it took them to complete a course, if they have done so
 
-##### Step 3 Intepreting the Results
+#### Step 3 Intepreting the Results
 
    - What is the number of enrolled students monthly? Which is the month with the most enrollments? Speculate about the reason for the increased numbers
    - Which career track do students enroll most in?
