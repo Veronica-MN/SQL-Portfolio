@@ -73,4 +73,22 @@ Reason 4 is opposite to reason 1. The employees who selected reason for absence 
 
    - Transportation Expenses vs Probability
      
-[Visualisations](https://public.tableau.com/app/profile/veronica.mucha/vizzes)
+[Tableau Visualisations](https://public.tableau.com/app/profile/veronica.mucha/vizzes)
+
+## Student Enrollments and Completions
+
+In this mini-project, I analyse, as the BI/Data Analyst in the company,  the career track enrollments and achievements of students at a fictional online school focusing on providing Data related courses such as Data Science, Data Analytics, Business Analyst as well as AI training, technical expertise, resume building support just to name a few. 
+
+I'll be working with a relatively small [SQL dataset](sql_and_tableau.sql), comprising only two tables and around a thousand rows, to analyse the the career track enrollments and achievements of Students and answer the following questions
+
+   - What is the number of enrolled students monthly? Which is the month with the most enrollments? Speculate about the reason for the increased numbers
+   - Which career track do students enroll most in?
+   - What is the career track completion rate? Can you say if it’s increasing, decreasing, or staying constant with time?
+   - How long does it typically take students to complete a career track? What type of subscription is most suitable for students who aim to complete a career track: monthly, quarterly, or annual?
+   - What advice and suggestions for improvement would you give the 365 team to boost engagement, increase the track completion rate, and motivate students to learn more consistently?
+
+I will visualise the results using [Tableau](https://public.tableau.com/app/profile/veronica.mucha/vizzes)
+
+The tracks represent an ordinal sequence of courses that eventually lead to obtaining the skills for one of three job titles: data scientist, data analyst, or business analyst.
+To acquire a corresponding career certificate, a student must pass nine course exams (seven compulsory and two elective courses) and sit for a career track exam encompassing topics from all seven required courses.
+
