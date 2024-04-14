@@ -77,7 +77,7 @@ Reason 4 is opposite to reason 1. The employees who selected reason for absence 
 
 ## Student Enrollments and Completions
 
-In this mini-project, I analyse, as the BI/Data Analyst in the company,  the career track enrollments and achievements of students at a fictional online school focusing on providing Data related courses such as Data Science, Data Analytics, Business Analyst as well as AI training, technical expertise, resume building support just to name a few. 
+In this mini-project, I analyse, as the BI/Data Analyst in the company,  the career track enrollments and achievements of students at a fictional online school focusing on providing Data related courses/career tracks such as Data Science, Data Analytics, Business Analyst as well as AI training, technical expertise, resume building support just to name a few. 
 
 I'll be working with a relatively small [SQL dataset](sql_and_tableau.sql), comprising only two tables and around a thousand rows, to analyse the the career track enrollments and achievements of Students and answer the following questions
 
@@ -91,4 +91,9 @@ I will visualise the results using [Tableau](https://public.tableau.com/app/prof
 
 The tracks represent an ordinal sequence of courses that eventually lead to obtaining the skills for one of three job titles: data scientist, data analyst, or business analyst.
 To acquire a corresponding career certificate, a student must pass nine course exams (seven compulsory and two elective courses) and sit for a career track exam encompassing topics from all seven required courses.
+
+##### Step 1 Extract the Data with SQL
+
+Join both tables and extract columns such as the `student_id`, `track_name`, `date_enrolled`, `date_completed` and newly created columns such as the `track_completed` and `days_for_completion` into a single [Query](career_track_analysis_queries.sql) which will help us solve our business questions. 
+
 
