@@ -63,15 +63,26 @@ The data is stored as a .csv file which I can then use in Tableau to analyse the
 #### Integration of SQL and Tableau
 Here we use the predicted_outputs_table which is based on 40 new observations obtained from the prediction model, to analyse the data 
 
-   - Age vs Average Probability: There seems to be a a higher probability percentage of employees aged 43 and above to be absent from work as well as employees 28 and possibly younger 
-   - Reasons vs Probability: The 1's and 0's indicate whether an individual has or has not been absent for each particular reason. Reason 2 did not contain data for both values only 0s indicating that there was no absenteeism for that reason meaning that none of the 40 observations was away from work because of reason 2. This corresponds with our data source in our .csv file. Therefor this field is excluded from the analysis.
+   - Age vs Average Probability:
+
+There seems to be a a higher probability percentage of employees aged 43 and above to be absent from work as well as employees 28 and possibly younger 
+   - Reasons vs Probability:
+
+The 1's and 0's indicate whether an individual has or has not been absent for each particular reason. Reason 2 did not contain data for both values only 0s indicating that there 
+was no absenteeism for that reason meaning that none of the 40 observations was away from work because of reason 2. This corresponds with our data source in our .csv file. 
+Therefor this field is excluded from the analysis.
 
 The analysis shows that the probability that an employee would be absent for more than 3 hours due to reason one is above 50% , as seen by the dots marked on the relevant value of 1.
 Compared to reason 3, the probability is distributed both in the lower and upper parts of the vertical line with very few observations/employees specified to give reason 3 for excessive absence from work.
 
 Reason 4 is opposite to reason 1. The employees who selected reason for absence have a probability mostly below 50% to be excessively absent from work.
 
-   - Transportation Expenses vs Probability
+   - Transportation Expenses & Chldren
+If we filter the data using the children filter, we can see that the employees with no children do not exhibit a high probability for excessive absence also none of them have high transportation expenses. This could be that they live closer to their work place.
+If we click on Children:1, The probability that this group is expected to be excessively absent varies across observations however most of the data is around the average transportation expense spending whihc is between $200 and $240 a month.
+
+Childre:2, the distribution is similar to that of employees with 1 child. If we look at employees with 1 child and employees with 2 children we observe that they both generally do no spend more than $240 on transportation per month. Only 5 observations are over the $240 mark.
+Children:3 only one observation is shown deducing that not many individuals have 3 children therefore we can exclude it since it can't affect the analysis of the 40 observations. 
      
 [Tableau Visualisations](https://public.tableau.com/app/profile/veronica.mucha/vizzes)
 
