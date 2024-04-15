@@ -99,27 +99,31 @@ Here I create 2 charts:
 
 #### Step 3 Intepreting the Results
 
-   - What is the number of enrolled students monthly? Which is the month with the most enrollments?
+**What is the number of enrolled students monthly? Which is the month with the most enrollments?**
+     
      The bars demonstrate the fluctuating number of people enrolling monthly which is arounf 800 and 1200. August registered the highest number of enrollments. There could be a number 
      of reason possibly promotions or discounts on courses, material or access to the online platform.
      The number of enrollments went up on this month as well as the completion rate. The enrollmentand completion dropped the following month possibly due to the end of the free 
      access or free services/products.
        
-   - Which career course do students enroll most in?
+**Which career course do students enroll most in?**
+
      The Data Analyst course  saw a higher number of enrollment as compared to the other courses. The Data Science course was the second most enrolled course and last was the Business 
      Analyst course.
      
-   - What is the career track completion rate? Does it increase, decrease, or stay constant with time?
+**What is the career track completion rate? Does it increase, decrease, or stay constant with time?**
+
      The Line Chart in the combo chart, the numbers fluctuate. The passing rate of 2% is relatively low with numbers varying between the different courses. It is difficult to conclude 
      with certainty whether the completion rate increases or decreases or stays constant.
 
-   - How long does it typically take students to complete a career course? What type of subscription is most suitable for students who aim to complete a career course: monthly, 
-     quarterly, or annual?
+**How long does it typically take students to complete a career course? What type of subscription is most suitable for students who aim to complete a career course: monthly, 
+     quarterly, or annual?**
 
      The second chart `Duration for Course Completion` shows that students tend to need more time to complete a course, mostly ranging from 91 - 365 days. More data would have to 
      collected over a longer period of time in order to know for certainty if this is indeed the duration it takes to complete an online course. 
      
-   - Suggestions to boost engagement, increase the course completion rate, and motivate students to learn more consistently?
+**Suggestions to boost engagement, increase the course completion rate, and motivate students to learn more consistently?**
+
      Since the pass rate of 2% in completing a career course, is relatively low, this tells us that it takes quite a lot of time and dedication for students to complete a course.
      A career course takes, nine courses to complete and pass with 7 compulsory courses. This can be overwhelming and discouraging.
 
