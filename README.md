@@ -77,7 +77,9 @@ Reason 4 is opposite to reason 1. The employees who selected reason for absence 
 
 ## Student Enrollments and Completions
 
-In this mini-project, I analyse, as the BI/Data Analyst in the company,  the career track/course enrollments and achievements of students at a fictional online school focusing on providing Data related courses/career tracks such as Data Science, Data Analytics, Business Analyst as well as AI training, technical expertise, resume building support just to name a few. The analysis is of data between January 2022 - December 2022.
+In this mini-project, I analyse, as the BI/Data Analyst in the company,  the career course enrollments and achievements of students at a fictional online school focusing on providing Data related courses/career tracks such as Data Science, Data Analytics, Business Analyst as well as AI training, technical expertise, resume building support just to name a few. The analysis is of data between January 2022 - December 2022.
+
+**Course Career** - To acquire a corresponding career certificate, a student must pass nine course exams (seven compulsory and two elective courses) and sit for a career course exam encompassing topics from all seven required courses.
 
 I'll be working with a relatively small [SQL dataset](sql_and_tableau.sql), comprising only two tables and around a thousand rows, to analyse the the career course enrollments and achievements of Students. 
 
@@ -97,8 +99,30 @@ Here I create 2 charts:
 
 #### Step 3 Intepreting the Results
 
-   - What is the number of enrolled students monthly? Which is the month with the most enrollments? Speculate about the reason for the increased numbers
-   - Which career track do students enroll most in?
-   - What is the career track completion rate? Can you say if it’s increasing, decreasing, or staying constant with time?
-   - How long does it typically take students to complete a career track? What type of subscription is most suitable for students who aim to complete a career track: monthly, quarterly, or annual?
-   - What advice and suggestions for improvement would you give the 365 team to boost engagement, increase the track completion rate, and motivate students to learn more consistently?
+   - What is the number of enrolled students monthly? Which is the month with the most enrollments?
+     The bars demonstrate the fluctuating number of people enrolling monthly which is arounf 800 and 1200. August registered the highest number of enrollments. There could be a number 
+     of reason possibly promotions or discounts on courses, material or access to the online platform.
+     The number of enrollments went up on this month as well as the completion rate. The enrollmentand completion dropped the following month possibly due to the end of the free 
+     access or free services/products.
+       
+   - Which career course do students enroll most in?
+     The Data Analyst course  saw a higher number of enrollment as compared to the other courses. The Data Science course was the second most enrolled course and last was the Business 
+     Analyst course.
+     
+   - What is the career track completion rate? Does it increase, decrease, or stay constant with time?
+     The Line Chart in the combo chart, the numbers fluctuate. The passing rate of 2% is relatively low with numbers varying between the different courses. It is difficult to conclude 
+     with certainty whether the completion rate increases or decreases or stays constant.
+
+   - How long does it typically take students to complete a career course? What type of subscription is most suitable for students who aim to complete a career course: monthly, 
+     quarterly, or annual?
+
+     The second chart `Duration for Course Completion` shows that students tend to need more time to complete a course, mostly ranging from 91 - 365 days. More data would have to 
+     collected over a longer period of time in order to know for certainty if this is indeed the duration it takes to complete an online course. 
+     
+   - Suggestions to boost engagement, increase the course completion rate, and motivate students to learn more consistently?
+     Since the pass rate of 2% in completing a career course, is relatively low, this tells us that it takes quite a lot of time and dedication for students to complete a course.
+     A career course takes, nine courses to complete and pass with 7 compulsory courses. This can be overwhelming and discouraging.
+
+     A rewards systems for completing each phase of the courses could help incentivise completing the course. Q&A hub that is helpful and supportive to students who may need more 
+     motivation and a Newsfeed hub to share their thoughts and learning progress and encourage each other. 
+     
