@@ -5,6 +5,27 @@ The sql queries are an integration with data visualisation I created using Table
 
 # Highlighted Projects
 
+## Analysing and Visualising Customer (Student) Engagement Metrics in a 3 page Dashboard
+
+In this project, I am analysing the student engagament in an educational platform that offeres various tech courses. The project includes SQL queries to extract the data needed to create the visualisation and analysis, as well as key metrics that help identify critical areas of improvement within the educational platform.
+
+### Objective
+The questions to be answered in this project are as follows:
+
+- Which courses are the most watched by students and how are they rated
+- How many students register each month
+- How is the student engagement: minutes watched and average minutes watched based on the different plans provided ( paid and free plan)
+- Which countries have the most registered students and does this number scale proportionally to the number of minutes watched per country
+
+1. Retrieving Student Information with SQL
+   The [student_info_query](student_info_query.sql) can be found here
+2. Retrieving Courses Information with SQL
+   The [courses_info_query](course_info_query.sql) can be found here
+3. Retrieving Purchasing Information with SQL
+   The [purchase_info_query](purchse_info_query.sql) can be found here
+
+### Analysing the Results
+
 ## Analyse Employees in a Company throughout the years of 1980s to 1990s at a fictional company
 
 - [SQL](Business_Tasks.sql): In this project, I used a big dataset found on [github](https://github.com/datacharmer/test_db/tree/master?tab=readme-ov-file) to Perform data analysis and answer 4 business questions combining SQL and Tableau [visualisations](https://public.tableau.com/app/profile/veronica.mucha/vizzes)
@@ -108,7 +129,7 @@ Here I create 2 charts:
    - One is a combo chart that represents the number of course enrollments in a given month as well as the fraction of course completions for that month as a percentage of the number of enrollments.
    - The second chart is a bar chart representing the `completion bucket` which is the 'bucket' a students falls into based on the number od days it took them to complete a course, if they have done so
 
-#### Step 3 Intepreting the Results
+#### Step 3 Analysing the Results
 
 **What is the number of enrolled students monthly? Which is the month with the most enrollments?**
      
