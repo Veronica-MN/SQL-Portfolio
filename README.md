@@ -22,7 +22,7 @@ The questions to be answered in this project are as follows:
 2. Retrieving Courses Information with SQL
    The [courses_info_query](course_info_query.sql) can be found here
 3. Retrieving Purchasing Information with SQL
-   The [purchase_info_query](purchse_info_query.sql) can be found here
+   The [purchase_info_query](purchase_info_query.sql) can be found here
 
 ### Analysing the Results
 
