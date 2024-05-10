@@ -26,6 +26,8 @@ The questions to be answered in this project are as follows:
 
 ### Analysing the Results
 
+[Page 3](https://public.tableau.com/app/profile/veronica.mucha/viz/CustomerEngagement-Final/Page1) of the Dashboard shows the Top 5 most watched courses by students. This is rated by total minutes watched, Averagerage minutes, number of ratings and average rating. The Introduction to Data and Data Science course is the most popular/wached course amongst students. This would imply that the Data Science course is what most students are looking to embark on as a career. 
+
 ## Analyse Employees in a Company throughout the years of 1980s to 1990s at a fictional company
 
 - [SQL](Business_Tasks.sql): In this project, I used a big dataset found on [github](https://github.com/datacharmer/test_db/tree/master?tab=readme-ov-file) to Perform data analysis and answer 4 business questions combining SQL and Tableau [visualisations](https://public.tableau.com/app/profile/veronica.mucha/vizzes)
