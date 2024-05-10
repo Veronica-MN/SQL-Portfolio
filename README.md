@@ -5,7 +5,7 @@ The sql queries are an integration with data visualisation I created using Table
 
 # Highlighted Projects
 
-## Analysing and Visualising Customer (Student) Engagement, with key metrics, in a 3 page Dashboard
+## Analysing and Visualising Customer (Student) Engagement, including key metrics, in a 3 page Dashboard
 
 In this project, I am analysing the student engagament in an educational platform that offeres various tech courses. The project includes SQL queries to extract the data needed to create the visualisation and analysis, as well as key metrics that help identify critical areas of improvement within the educational platform.
 
